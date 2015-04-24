@@ -39,9 +39,9 @@
         [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
         
         //自定义返回按钮
-        
-            UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:nil];
-            self.navigationItem.backBarButtonItem = item;
+//        
+//            UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:nil];
+//            self.navigationItem.backBarButtonItem = item;
 
         NSMutableArray *array = [NSMutableArray array];
         
@@ -68,10 +68,15 @@
     return self;
 
 }
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     
+    
+
     
     
 }

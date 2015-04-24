@@ -58,7 +58,7 @@
         cateArray = [NSMutableArray array];
         
        
-        isClicked = NO;
+//        isClicked = NO;
         
         
     }
@@ -119,12 +119,12 @@
     
     
     //自定义返回按钮
-    UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:nil];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:nil];
     self.navigationItem.backBarButtonItem = item;
     
     
     
-    UIImage *imagNormal = [UIImage imageNamed:@"1.png"];
+    UIImage *imagNormal = [UIImage imageNamed:@"home.png"];
     UITabBarItem *v1 = [[UITabBarItem alloc]initWithTitle:@"KaKa美食" image:imagNormal tag:3];
     self.tabBarItem = v1;
 
@@ -176,6 +176,8 @@
 {
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    
+    
     hud.labelText = @"正在加载....";
     NSString *str = @"http://wx.dearkaka.com/kaka/kaka-api!menus.shtml";
     

@@ -36,7 +36,7 @@
     _priceLabel.text = [NSString stringWithFormat:@"￥%@元/份",fmodel.price];
     
     
-//    [_ImageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://wx.dearkaka.com/kaka/%@",fmodel.showImg]]];
+    [_ImageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://wx.dearkaka.com/kaka/%@",fmodel.showImg]]];
 //
 //    [_ImageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://wx.dearkaka.com/kaka/%@",fmodel.showImg]] placeholderImage:[UIImage imageNamed:@"7"]];
     

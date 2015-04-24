@@ -438,7 +438,7 @@
                     [calHeadArr addObject:headModel];
                 }
                 
-                NSLog(@"卡卡卡LIST%lu",(unsigned long)calHeadArr.count);
+//                NSLog(@"卡卡卡LIST%lu",(unsigned long)calHeadArr.count);
                
                 
                 CalendarViewController *cal = [[CalendarViewController alloc]init];

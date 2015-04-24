@@ -128,15 +128,15 @@
         
         if (fmodel.commodityArray.count==0)
         {
-            NSLog(@"%@------",fmodel.commodityName);
-            NSLog(@"id is-------%@",fmodel.Id);
+//            NSLog(@"%@------",fmodel.commodityName);
+//            NSLog(@"id is-------%@",fmodel.Id);
             
            [commodityParamesArr addObject:[NSString stringWithFormat:@"%@-%i",fmodel.Id,fmodel.number]];
         }
         else
         {
-            NSLog(@"%@------%@",fmodel.commodityName,cmodel.commodityName);
-            NSLog(@"id is-------%@ %@",fmodel.Id,cmodel.Id);
+//            NSLog(@"%@------%@",fmodel.commodityName,cmodel.commodityName);
+//            NSLog(@"id is-------%@ %@",fmodel.Id,cmodel.Id);
             
             [reamrkArr addObject:[NSString stringWithFormat:@"%@-%@",fmodel.commodityName,cmodel.commodityName]];
             
@@ -881,18 +881,18 @@
        if (isVoiceTitle)
        {
            
-           return 90;
+           return 90.0;
        }
        else
-           return 44;
+           return 44.0;
    
    }
    
     if (indexPath.row==6)
     {
-        return 180;
+        return 180.0;
     }
-    return 44;
+    return 44.0;
 
 }
 //- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath

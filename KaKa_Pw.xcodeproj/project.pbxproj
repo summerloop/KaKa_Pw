@@ -18,7 +18,6 @@
 		9F3B0AFB1A3AE01100CF98D1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B0AF41A3AE01100CF98D1 /* 2.png */; };
 		9F3B0AFC1A3AE01100CF98D1 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B0AF51A3AE01100CF98D1 /* 3.png */; };
 		9F3B0AFD1A3AE01100CF98D1 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B0AF61A3AE01100CF98D1 /* 4.png */; };
-		9F3B0AFE1A3AE01100CF98D1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B0AF71A3AE01100CF98D1 /* 1.png */; };
 		9F3B0AFF1A3AE01100CF98D1 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B0AF81A3AE01100CF98D1 /* 7.png */; };
 		9F3B0B001A3AE01100CF98D1 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B0AF91A3AE01100CF98D1 /* up.png */; };
 		9F3B0B3D1A3AE09400CF98D1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B0B3C1A3AE09400CF98D1 /* MBProgressHUD.m */; };
@@ -99,6 +98,7 @@
 		9FDBD9261A65393E000842D5 /* OrderListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBD9241A65393E000842D5 /* OrderListCell.xib */; };
 		9FE143931A4D0D110099CF4E /* 减号_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE143911A4D0D110099CF4E /* 减号_03.png */; };
 		9FE143941A4D0D110099CF4E /* 加号_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE143921A4D0D110099CF4E /* 加号_03.png */; };
+		9FE35DE61A8888AF0030819B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE35DE51A8888AF0030819B /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +131,6 @@
 		9F3B0AF41A3AE01100CF98D1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		9F3B0AF51A3AE01100CF98D1 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		9F3B0AF61A3AE01100CF98D1 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		9F3B0AF71A3AE01100CF98D1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		9F3B0AF81A3AE01100CF98D1 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		9F3B0AF91A3AE01100CF98D1 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 		9F3B0B3B1A3AE09400CF98D1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -266,6 +265,7 @@
 		9FDBD9241A65393E000842D5 /* OrderListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderListCell.xib; sourceTree = "<group>"; };
 		9FE143911A4D0D110099CF4E /* 减号_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减号_03.png"; sourceTree = "<group>"; };
 		9FE143921A4D0D110099CF4E /* 加号_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号_03.png"; sourceTree = "<group>"; };
+		9FE35DE51A8888AF0030819B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,7 +361,7 @@
 				9F3B0AF51A3AE01100CF98D1 /* 3.png */,
 				9FCB73F81A59127C00F14D43 /* back_arrow.png */,
 				9F3B0AF61A3AE01100CF98D1 /* 4.png */,
-				9F3B0AF71A3AE01100CF98D1 /* 1.png */,
+				9FE35DE51A8888AF0030819B /* home.png */,
 				9F3B0AF81A3AE01100CF98D1 /* 7.png */,
 				9F3B0AF91A3AE01100CF98D1 /* up.png */,
 				9FE143911A4D0D110099CF4E /* 减号_03.png */,
@@ -664,6 +664,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCC8B331A525DE400381240 /* check_number.png in Resources */,
+				9FE35DE61A8888AF0030819B /* home.png in Resources */,
 				9FD6D55F1A725FAB00C8FA0E /* icon.png in Resources */,
 				9F3B0B691A3AE0CA00CF98D1 /* DetailCell1TableViewCell.xib in Resources */,
 				9F3B0B8E1A3AE18800CF98D1 /* UserViewController.xib in Resources */,
@@ -693,7 +694,6 @@
 				9FCC8B391A52B14200381240 /* phone_number.png in Resources */,
 				9F3B0AFA1A3AE01100CF98D1 /* down.png in Resources */,
 				9FD4F1D51A6CB4F600F49B10 /* couponId@2x.png in Resources */,
-				9F3B0AFE1A3AE01100CF98D1 /* 1.png in Resources */,
 				9FCA7CB61A4143CB0011A3CE /* shopCar.png in Resources */,
 				9FCA7CB51A4143CB0011A3CE /* clear.png in Resources */,
 				9F40F6201A514B96008EEF93 /* RegisterViewController.xib in Resources */,
